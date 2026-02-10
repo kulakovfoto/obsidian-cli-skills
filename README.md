@@ -27,6 +27,7 @@ Example:
 cp -R obsidian-cli obsidian-safe-move "$CODEX_HOME/skills/"
 # or (if CODEX_HOME is not set)
 cp -R obsidian-cli obsidian-safe-move ~/.codex/skills/
+```
 
 ___
 
