@@ -4,6 +4,8 @@
 
 A small set of Codex skills to operate Obsidian via the official Obsidian CLI (`obsidian`): read/create/edit notes, search your vault, manage tasks/tags/properties, run link health checks, and safely move/rename notes without breaking wikilinks.
 
+**Documentation**: https://help.obsidian.md/cli
+
 ## What’s included
 
 - `obsidian-cli` — general “operator” skill for composing correct `obsidian ...` commands (best practices + common recipes).
