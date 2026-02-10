@@ -31,10 +31,10 @@ cp -R obsidian-cli obsidian-safe-move ~/.codex/skills/
 
 ___
 
-Как пользоваться в чате с Codex
+## Как пользоваться в чате с Codex
 Скиллы активируются, когда вы прямо упоминаете их в запросе.
 
-1) obsidian-cli
+### 1) obsidian-cli
 Используйте, когда нужно:
 
 составить корректные команды obsidian ...;
@@ -53,7 +53,8 @@ ___
 
 предпочитать note.md" вместо file=Name, чтобы избежать неоднозначностей;
 многострочный content писать через \n и \t.
-2) obsidian-safe-move
+
+### 2) obsidian-safe-move
 Используйте, когда нужно переименовать/переместить заметку и важно не сломать wikilinks.
 
 Примеры запросов:
@@ -69,7 +70,8 @@ ___
 Важно:
 
 obsidian-safe-move рассчитан на то, что Obsidian настроен обновлять внутренние ссылки (Settings → Files & Links → Automatically update internal links).
-Troubleshooting
+
+## Troubleshooting
 obsidian: command not found → проверьте регистрацию CLI и PATH (в документации Obsidian CLI есть инструкции по ОС).
 Команды “не видят” нужный vault → запускайте из корня vault или явно задавайте vault="<имя>".
 Некоторые команды зависят от возможностей Obsidian/плагинов; если команда недоступна, начните с obsidian help и версии Obsidian.
