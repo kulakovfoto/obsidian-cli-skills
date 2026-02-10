@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Safe Move"
+  short_description: "Безопасный rename/move заметок"
+  default_prompt: "Используй $obsidian-safe-move, чтобы безопасно переименовать или переместить заметку через `obsidian move` и проверить, что ссылки не сломались."

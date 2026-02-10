@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian CLI"
+  short_description: "Obsidian из терминала через CLI"
+  default_prompt: "Используй $obsidian-cli, чтобы составить корректные команды `obsidian` для поиска/чтения/создания и правок заметок в моём vault."
